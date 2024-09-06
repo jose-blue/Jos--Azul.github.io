@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #262425;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+       
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introducción a HTML</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>¿Qué es HTML?</h2>
+            <img src="imagenes/imagen 5.jpg" alt="Ejemplo de HTML">
+            <p>   HTML o (Lenguaje de Marcas de Hipertexto “HyperText Markup Language”), es un lenguaje que se utiliza para dar estructura y estilo a una página web o documento. Este no es un lenguaje de programación, en realidad es un lenguaje de marcado que está estructurado por etiquetas. (Raffino, 2023)</p>
+            <hr>
+            <h2>¿Para qué sirve HTML?</h2>
+            <p>HTML nos ayuda para describir la estructura elemental de una página. Este lenguaje de marcado ordena el contenido de forma tal manera que muestre cómo este se va a visualizar. Nos ayuda a poder mostrar textos, imágenes, videos, etc. (Raffino, 2023)</p>
+            <hr>
+            <h2>¿Cómo funciona HTML?</h2>
+            <p>   El lenguaje de marcado o HTML funciona precisamente con marcadores escritos, los cuales se muestran entre comillas angulares: &lt;html&gt;. Con estos comandos puedes construir fácilmente tu web y añadir toda la información importante para todos los navegadores. También los tags para la estructura básica, además podemos incluir contenido multimedia, crear formularios o determinar el tipo de letra. (Raffino, 2023)</p>
+            <hr>
+            <h2>TAGS DE HTML PARA ORDENAR UNA WEB</h2>
+            <ul>
+                <li><code>&lt;!DOCTYPE&gt;</code>: Nos ayuda a determinar el tipo de documento.</li>
+                <li><code>&lt;html&gt;</code>: Sirve para que se defina como documento HTML.</li>
+                <li><code>&lt;head&gt;</code>: Ayuda a almacenar los metadatos del documento.</li>
+                <li><code>&lt;title&gt;</code>: Este comando contiene el título del documento, que además se mostrará en la barra de título del buscador.</li>
+                <li><code>&lt;body&gt;</code>: Es la sección principal y engloba todo el contenido que verás en el navegador.</li>
+                <li><code>&lt;nav&gt;</code>: Ayuda a la sección de navegación de una web.</li>
+                <li><code>&lt;section&gt;</code>: Con esta etiqueta puedes resumir los elementos en un grupo.</li>
+                <li><code>&lt;article&gt;</code>: Sirve para la sección de contenido de una web.</li>
+                <li><code>&lt;header&gt;</code>: Esta etiqueta define el encabezado de una web o una sección.</li>
+                <li><code>&lt;footer&gt;</code>: Esta etiqueta define el pie de página de una web o una sección.</li>
+            </ul>
+            <hr>
+            <h2>TAGS DE HTML PARA ESTRUCTURAR UN DOCUMENTO</h2>
+            <ul>
+                <li><code>&lt;h1&gt; a &lt;h6&gt;</code>: Los titulares van en los distintos tags h. Cuanto menor sea la cifra, mayor será el encabezado.</li>
+                <li><code>&lt;p&gt;</code>: Nos indica que se trata de un párrafo.</li>
+                <li><code>&lt;br&gt;</code>: Esta etiqueta fuerza un salto de línea.</li>
+                <li><code>&lt;hr&gt;</code>: Crea una línea divisoria física entre dos tipos de contenido.</li>
+            </ul>
+            <hr>
+            <h2>TAGS HTML PARA AJUSTAR LA TIPOGRAFIA</h2>
+            <ul>
+                <li><code>&lt;b&gt;</code>: Sirve para poner en negrita palabras sueltas, frases o párrafos.</li>
+                <li><code>&lt;i&gt;</code>: Sirve para poner en cursiva palabras sueltas, frases o párrafos.</li>
+                <li><code>&lt;u&gt;</code>: Con esta etiqueta el fragmento seleccionado estará subrayado.</li>
+                <li><code>&lt;s&gt;</code>: Con esta etiqueta el texto seleccionado estará tachado.</li>
+                <li><code>&lt;sup&gt;</code>: Sirve para que el carácter seleccionado sea un superíndice, p. ej. 1<sup>o</sup>.</li>
+                <li><code>&lt;sub&gt;</code>: Con esta etiqueta puedes escribir caracteres en subíndices, como el 2 de H<sub>2</sub>O.</li>
+            </ul>
+            <hr>
+            <h2>TAGS PARA RESALTAR Y MARCAR PÁRRAFOS HTML</h2>
+            <ul>
+                <li><code>&lt;strong&gt;</code>: Esta etiqueta sirve para resaltar párrafos.</li>
+                <li><code>&lt;em&gt;</code>: Con esta etiqueta puedes enfatizar fragmentos de texto.</li>
+                <li><code>&lt;q&gt;</code>: Esta etiqueta sirve para marcar citas dentro de un texto.</li>
+                <li><code>&lt;blockquote&gt;</code>: Sirve para marcar todo un párrafo como cita.</li>
+            </ul>
+            <hr>
+            <h2>TAGS DE TABLAS Y LISTAS HTML</h2>
+            <ul>
+                <li><code>&lt;table&gt;</code>: Sirve para crear una tabla.</li>
+                <li><code>&lt;caption&gt;</code>: Esta etiqueta para definir el título de la tabla.</li>
+                <li><code>&lt;tr&gt;</code>: Esta etiqueta sirve para las líneas de la tabla.</li>
+                <li><code>&lt;td&gt;</code>: Sirve para definir una casilla de la tabla.</li>
+                <li><code>&lt;ul&gt;</code>: Esta etiqueta te ayuda crear una lista de viñetas.</li>
+            </ul>
+            <hr>
+            <h2>TAGS DE CONTENIDO MULTIMEDIA HTML</h2>
+            <ul>
+                <li><code>&lt;img&gt;</code>: Sirve para indicar una imagen.</li>
+                <li><code>&lt;map&gt;</code>: Con esta etiqueta puedes insertar un mapa en un documento.</li>
+                <li><code>&lt;audio&gt;</code>: Sirve para insertar un sonido.</li>
+                <li><code>&lt;video&gt;</code>: Nos sirve para añadir contenido en vídeo.</li>
+            </ul>
+            <hr>
+            <h2>OTROS COMANDOS IMPORTANTES DE HTML</h2>
+            <ul>
+                <li><code>&lt;style&gt;</code>: Esta etiqueta introduce los códigos CSS que determina el aspecto de tu web.</li>
+                <li><code>&lt;div&gt;</code>: Esta etiqueta sirve para definir ciertos párrafos de un documento.</li>
+                <li><code>&lt;label&gt;</code>: Esta etiqueta se utiliza junto con <code>&lt;input&gt;</code> y define un campo de texto de <code>&lt;input&gt;</code>.</li>
+                <li><code>&lt;iframe&gt;</code>: Sirve para incluir contenido externo en tu web.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
